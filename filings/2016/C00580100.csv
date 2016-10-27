@@ -1,0 +1,13 @@
+id,cycle,committee_type,form_type,date_filed,date_coverage_from,date_coverage_to,report_title,report_period,paper,contributions_total,cash_on_hand,disbursements_total,receipts_total,amended,is_amendment,original_filing,fec_uri,original_uri,amended_uri
+1015464,2016,P,F3,2015-07-15,2015-04-02,2015-06-30,JUL QUARTERLY,Q2,False,96298.97,487736.16,1414674.29,1902410.45,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1015464/,,
+1036338,2016,P,F3,2015-12-17,2015-07-01,2015-09-30,OCT QUARTERLY,Q3,False,3918816.18,254772.88,4159474.93,3926511.65,False,True,1029398,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1036338/,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1029398/,
+1047287,2016,P,F3,2016-01-31,2015-10-01,2015-12-31,YEAR-END,YE,False,2760486.42,6964324.88,6866742.86,13576294.86,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1047287/,,
+1051572,2016,P,F3,2016-02-20,2016-01-01,2016-01-31,FEB MONTHLY,M2,False,972759.51,1584720.97,11500705.98,6121102.07,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1051572/,,
+1056932,2016,P,F3,2016-03-20,2016-02-01,2016-02-29,MAR MONTHLY,,False,2061092.37,1340805.39,9458274.48,9214358.9,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1056932/,,
+1066437,2016,P,F3,2016-04-20,2016-03-01,2016-03-31,APR MONTHLY,M4,False,2752974.05,2111070.09,13785551.17,14555815.87,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1066437/,,
+1074038,2016,P,F3,2016-05-20,2016-04-01,2016-04-30,MAY MONTHLY,M5,False,1748839.4,2408641.95,9361528.11,9659099.97,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1074038/,,
+1079423,2016,P,F3,2016-06-20,2016-05-01,2016-05-31,JUN MONTHLY,M6,False,3149945.25,1289507.76,6739944.02,5620809.83,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1079423/,,
+1098663,2016,P,F3,2016-09-12,2016-06-01,2016-06-30,JUL MONTHLY,M7,False,21940841.15,20210965.7,7800248.84,26721706.78,False,True,1089674,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1098663/,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1089674/,
+1104813,2016,P,F3,2016-10-12,2016-07-01,2016-07-31,AUG MONTHLY,M8,False,21722843.22,38442646.47,18450446.52,36682127.29,False,True,1096341,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1104813/,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1096341/,
+1100920,2016,P,F3,2016-09-20,2016-08-01,2016-08-31,SEP MONTHLY,M9,False,20387449.4,50260442.76,29933921.33,41751717.62,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1100920/,,
+1111849,2016,P,F3,2016-10-20,2016-09-01,2016-09-30,OCT MONTHLY,M10,False,19418533.43,34776287.87,70201909.65,54717754.76,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00580100/1111849/,,
