@@ -1,3 +1,4 @@
 id,cycle,committee_type,form_type,date_filed,date_coverage_from,date_coverage_to,report_title,report_period,paper,contributions_total,cash_on_hand,disbursements_total,receipts_total,amended,is_amendment,original_filing,fec_uri,original_uri,amended_uri
 1100633,2016,P,F3,2016-09-20,2016-08-01,2016-08-31,SEP MONTHLY,M9,False,322306.04,44626.98,277814.17,322441.15,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00623884/1100633/,,
 1111851,2016,P,F3,2016-10-20,2016-09-01,2016-09-30,OCT MONTHLY,M10,False,177948.13,4316.65,218962.68,178652.35,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00623884/1111851/,,
+1119580,2016,P,F3,2016-10-27,2016-10-01,2016-10-19,PRE-GENERAL,PREG,False,527131.2,249610.86,283708.83,529003.04,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00623884/1119580/,,

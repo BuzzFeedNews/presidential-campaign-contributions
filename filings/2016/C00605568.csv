@@ -8,3 +8,4 @@ id,cycle,committee_type,form_type,date_filed,date_coverage_from,date_coverage_to
 1096305,2016,P,F3,2016-08-20,2016-07-01,2016-07-31,AUG MONTHLY,M8,False,1602810.43,1205355.39,856518.54,1602810.43,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00605568/1096305/,,
 1100868,2016,P,F3,2016-09-20,2016-08-01,2016-08-31,SEP MONTHLY,M9,False,4971147.55,2492904.11,3683598.83,4971147.55,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00605568/1100868/,,
 1112281,2016,P,F3,2016-10-20,2016-09-01,2016-09-30,OCT MONTHLY,M10,False,2131128.35,1217262.97,4017873.11,2635786.95,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00605568/1112281/,,
+1119833,2016,P,F3,2016-10-27,2016-10-01,2016-10-19,PRE-GENERAL,PREG,False,694279.34,1101439.86,876731.35,694279.34,False,,,http://docquery.fec.gov/cgi-bin/dcdev/forms/C00605568/1119833/,,
