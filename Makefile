@@ -18,7 +18,7 @@ filings/2016: $(wildcard filings/2016/*.csv)
 filings/2012: $(wildcard filings/2012/*.csv)
 filings/2008: $(wildcard filings/2008/*.csv)
 
-filings: $(shell find filings -maxdepth 1 -type d)
+filings: $(shell find filings -depth 1 -type d)
 
 data/2016: $(shell find data/2016 -depth 1 -type d)
 data/2012: $(shell find data/2012 -depth 1 -type d)

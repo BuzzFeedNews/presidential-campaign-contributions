@@ -12,4 +12,6 @@ FILINGS_CSV="filings/$CC".csv
 CONTRIBUTIONS_DIR="data/$CC"
 python scripts/fetch_latest_filings_list.py $CC > $FILINGS_CSV
 mkdir -p $CONTRIBUTIONS_DIR
-python scripts/fetch_data.py < $FILINGS_CSV
+for f in $(cut -d , -f 1 $FILINGS_CSV | tail -n+2); do
+    echo python scripts/fetch_filing.py $f;
+done

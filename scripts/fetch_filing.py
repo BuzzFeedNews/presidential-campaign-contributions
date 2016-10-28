@@ -6,11 +6,7 @@ import sys, os
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("filings",
-        type=argparse.FileType("r"),
-        nargs="?",
-        default=sys.stdin
-    )
+    parser.add_argument("filing_id")
     args = parser.parse_args()
     return args
 
@@ -46,23 +42,29 @@ FORM_TYPES = [
     "SB28A", # Refunds to individuals
 ]
 
+def write_filing(lines):
+    main_line = lines[1]
+    cid = main_line[1]
+    coverage_from = main_line[15]
+    coverage_to = main_line[16]
+    cycle = int(coverage_from[:4])
+    cycle += cycle % 2
+    directory = "data/{0}/{1}".format(cycle, cid)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    for form_type in FORM_TYPES:
+        fname = "{0}-{1}-from-{2}-to-{3}.csv".format(
+            cid,
+            form_type,
+            "-".join([ coverage_from[:4], coverage_from[4:6], coverage_from[6:8] ]),
+            "-".join([ coverage_to[:4], coverage_to[4:6], coverage_to[6:8] ]),
+        )
+        dest = os.path.join(directory, fname)
+        sys.stderr.write(dest + "\n")
+        with open(dest, "w") as f:
+            write_lines(lines, form_type, f)
+
 if __name__ == "__main__":
     args = parse_args()
-    filings = csv.DictReader(args.filings)
-    for filing in filings:
-        cycle = filing["cycle"]
-        cid = filing["fec_uri"].split("/")[-3]
-        directory = "data/{0}/{1}".format(cycle, cid)
-        if not os.path.exists(directory):
-            os.makedirs(directory)
-        lines = get_filing_lines(filing["id"])
-        for form_type in FORM_TYPES:
-            fname = "{0}-{1}-from-{2}-to-{3}.csv".format(
-                cid,
-                form_type,
-                filing["date_coverage_from"],
-                filing["date_coverage_to"]
-            )
-            dest = os.path.join(directory, fname)
-            with open(dest, "w") as f:
-                write_lines(lines, form_type, f)
+    lines = get_filing_lines(args.filing_id)
+    write_filing(lines)
